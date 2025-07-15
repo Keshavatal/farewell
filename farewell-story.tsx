@@ -320,24 +320,34 @@ export default function FarewellStory() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="group">
-              <div className="text-4xl font-bold text-amber-400 mb-4 group-hover:scale-110 transition-transform">
-                250+
+            {/* Members */}
+            <div className="flex flex-col items-center group">
+              <div className="mb-4 flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-br from-amber-400 to-orange-400 shadow-lg">
+                <Users className="h-10 w-10 text-black" />
               </div>
+              <div className="text-4xl font-extrabold text-amber-400 mb-1 tracking-tight">250+</div>
               <p className="text-amber-200 font-semibold">Family Members</p>
-              <p className="text-sm text-amber-300/70 mt-2">Each one precious</p>
+              <p className="text-sm text-amber-300/70 mt-1">Each one precious</p>
             </div>
 
-            <div className="group">
-              <div className="text-4xl font-bold text-amber-400 mb-4 group-hover:scale-110 transition-transform">∞</div>
+            {/* Memories */}
+            <div className="flex flex-col items-center group">
+              <div className="mb-4 flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-br from-amber-400 to-orange-400 shadow-lg">
+                <Camera className="h-10 w-10 text-black" />
+              </div>
+              <div className="text-4xl font-extrabold text-amber-400 mb-1 tracking-tight">∞</div>
               <p className="text-amber-200 font-semibold">Memories Created</p>
-              <p className="text-sm text-amber-300/70 mt-2">Together we captured</p>
+              <p className="text-sm text-amber-300/70 mt-1">Together we captured</p>
             </div>
 
-            <div className="group">
-              <div className="text-4xl font-bold text-amber-400 mb-4 group-hover:scale-110 transition-transform">3</div>
+            {/* Years */}
+            <div className="flex flex-col items-center group">
+              <div className="mb-4 flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-br from-amber-400 to-orange-400 shadow-lg">
+                <Star className="h-10 w-10 text-black" />
+              </div>
+              <div className="text-4xl font-extrabold text-amber-400 mb-1 tracking-tight">3</div>
               <p className="text-amber-200 font-semibold">Years of Growth</p>
-              <p className="text-sm text-amber-300/70 mt-2">Side by side</p>
+              <p className="text-sm text-amber-300/70 mt-1">Side by side</p>
             </div>
           </div>
         </div>
@@ -352,22 +362,22 @@ export default function FarewellStory() {
           <div className="bg-gradient-to-br from-amber-900/40 to-orange-900/40 p-12 rounded-lg border border-amber-400/30">
             <p className="text-2xl text-amber-100 leading-relaxed mb-8">
               As I step back, the responsibility now belongs to all 250+ members of AU United Photography Club.
-              Together, we built this family, and together you will continue to grow it.
+              Together, we built this family, and together you will continue to grow it. Introducing new Heads.
             </p>
             <div className="flex justify-center gap-8 mb-8">
               <div className="text-center">
                 <div className="w-20 h-20 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center mb-4 mx-auto">
                   <Camera className="h-10 w-10 text-black" />
                 </div>
-                <p className="text-2xl font-bold text-white">Yuvraj</p>
-                <p className="text-amber-300">Leading the Vision</p>
+                <p className="text-2xl font-bold text-white">Mallipudi Yuvraj</p>
+                <p className="text-amber-300">Brain of the Club</p>
               </div>
               <div className="text-center">
                 <div className="w-20 h-20 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center mb-4 mx-auto">
                   <Heart className="h-10 w-10 text-black" />
                 </div>
                 <p className="text-2xl font-bold text-white">Sai Diwakar</p>
-                <p className="text-amber-300">Guiding the Journey</p>
+                <p className="text-amber-300">Heart of the Club</p>
               </div>
             </div>
             <p className="text-xl text-amber-200 mb-4">
@@ -380,31 +390,7 @@ export default function FarewellStory() {
         </div>
       </section>
 
-      {/* Our Visual Legacy */}
-      <section className="relative py-20 bg-gradient-to-b from-slate-900 to-black">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <Camera className="h-16 w-16 mx-auto text-amber-400 mb-8" />
-          <h2 className="text-5xl font-bold text-white mb-8">Our Visual Legacy Lives On</h2>
-
-          <div className="bg-gradient-to-br from-amber-900/40 to-orange-900/40 p-12 rounded-lg border border-amber-400/30 mb-12">
-            <p className="text-2xl text-amber-100 leading-relaxed mb-8">
-              Every event, every moment, every smile we captured together tells our story.
-            </p>
-            <a
-              href="https://auunitedclub.netlify.app/clubs/photography"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 bg-gradient-to-r from-amber-500 to-orange-500 text-black px-8 py-4 rounded-full font-bold text-lg hover:from-amber-400 hover:to-orange-400 transition-all duration-300 transform hover:scale-105"
-            >
-              <Camera className="h-6 w-6" />
-              Explore Our Gallery
-            </a>
-            <p className="text-amber-300 text-sm mt-4">
-              Witness the moments that defined our journey together
-            </p>
-          </div>
-        </div>
-      </section>
+      
 
       {/* Final Gratitude */}
       <section className="relative py-20 bg-gradient-to-t from-amber-900/20 to-black">
