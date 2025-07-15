@@ -57,24 +57,6 @@ export default function FarewellStory() {
         </div>
       </section>
 
-      {/* Club Theme Video by Juniors */}
-      <section className="relative py-20 bg-gradient-to-b from-black via-slate-900 to-black">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Our Club Theme Video</h2>
-          <p className="text-xl text-amber-200 mb-8">A special video created by our talented juniors capturing the spirit of AU United Photography Club</p>
-          <div className="relative w-full aspect-video max-w-3xl mx-auto rounded-lg overflow-hidden shadow-2xl border-4 border-amber-400">
-            <iframe
-              src="https://www.youtube.com/embed/MYA3wdF2WPM?si=tazul1Hpv4U6DMbI"
-              title="AU United Photography Club Theme Video"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-              className="w-full h-full"
-              style={{ minHeight: 300 }}
-            ></iframe>
-          </div>
-          <p className="text-amber-300 mt-4 text-lg">Thank you to our juniors for this wonderful tribute!</p>
-        </div>
-      </section>
 
       {/* The Beginning - Our Foundation */}
       <section className="relative py-20 bg-gradient-to-b from-black via-slate-900 to-black">
