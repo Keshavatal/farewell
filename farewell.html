@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Journey Through the Lens - Keshav Atal's Farewell</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'handwriting': ['Kalam', 'cursive']
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        .animate-bounce {
+            animation: bounce 1s infinite;
+        }
+        @keyframes bounce {
+            0%, 20%, 53%, 80%, 100% {
+                transform: translate3d(0,0,0);
+            }
+            40%, 43% {
+                transform: translate3d(0,-30px,0);
+            }
+            70% {
+                transform: translate3d(0,-15px,0);
+            }
+            90% {
+                transform: translate3d(0,-4px,0);
+            }
+        }
+        .animate-pulse {
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: .5;
+            }
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-black text-white overflow-x-hidden">
+    <!-- Hero - A Heartfelt Reflection -->
+    <section class="relative h-screen flex items-center justify-center">
+        <div class="absolute inset-0 bg-gradient-to-br from-amber-900/20 via-transparent to-orange-900/20"></div>
+        <div class="absolute inset-0" style="background-image: radial-gradient(circle at center, transparent 40%, rgba(0,0,0,0.8) 70%);"></div>
+
+        <!-- Gentle corner elements -->
+        <div class="absolute top-8 left-8 w-8 h-8 border-l-2 border-t-2 border-amber-400"></div>
+        <div class="absolute top-8 right-8 w-8 h-8 border-r-2 border-t-2 border-amber-400"></div>
+        <div class="absolute bottom-8 left-8 w-8 h-8 border-l-2 border-b-2 border-amber-400"></div>
+        <div class="absolute bottom-8 right-8 w-8 h-8 border-r-2 border-b-2 border-amber-400"></div>
+
+        <div class="text-center z-10 px-6">
+            <div class="mb-8">
+                <div class="w-24 h-24 mx-auto bg-white rounded-full p-4 mb-4">
+                    <img src="https://i.ibb.co/RTQ3cQfr/Green-Photography-Day-Instagram-Post.png" alt="AU United Photography Club Logo" class="w-full h-full object-contain">
+                </div>
+            </div>
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-amber-200 via-orange-300 to-red-400 bg-clip-text text-transparent">
+                 "A Journey Through the Lens"
+            </h1>
+            <p class="text-xl md:text-2xl text-amber-200 mb-4 font-light">
+                Reflections on Three Years of Growth, Community, and Countless Memories
+            </p>
+            <div class="text-lg text-amber-300/80 space-y-2">
+                <p class="text-xl">By Keshav Atal, Outgoing Head</p>
+                <p class="text-amber-400">AU United Photography Club • 2022—2025</p>
+            </div>
+
+            <div class="mt-12 animate-bounce">
+                <svg class="h-8 w-8 mx-auto text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Beginning - Our Foundation -->
+    <section class="relative py-20 bg-gradient-to-b from-black via-slate-900 to-black">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-white mb-4">Where Our Story Began</h2>
+                <p class="text-xl text-amber-200">From a simple idea to a thriving family</p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- The Club Logo -->
+                <div class="relative">
+                    <div class="bg-white p-6 pb-16 transform rotate-1 shadow-2xl">
+                        <div class="bg-gradient-to-br from-amber-100 to-orange-200 h-80 flex items-center justify-center overflow-hidden rounded p-8">
+                            <img src="https://i.ibb.co/RTQ3cQfr/Green-Photography-Day-Instagram-Post.png" alt="AU United Photography Club Logo" class="w-full h-full object-contain">
+                        </div>
+                        <div class="mt-4 text-center">
+                            <p class="text-slate-800 font-handwriting text-lg">The symbol of our shared passion</p>
+                        </div>
+                    </div>
+
+                    <!-- Gentle achievement notes -->
+                    <div class="absolute -top-4 -right-4 bg-amber-400 text-black px-4 py-2 rounded-full font-bold text-sm transform rotate-12">
+                        250+ Family
+                    </div>
+                    <div class="absolute -bottom-4 -left-4 bg-orange-500 text-white px-4 py-2 rounded-full font-bold text-sm transform -rotate-12">
+                        Together We Grew
+                    </div>
+                </div>
+
+                <!-- The Humble Story -->
+                <div class="space-y-6">
+                    <svg class="h-12 w-12 text-amber-400 mb-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                    </svg>
+                    <blockquote class="text-2xl font-light leading-relaxed text-amber-100">
+                        "When I first joined AU United Photography Club, it was merely a name with no structured identity. What happened next was beyond anything I could have imagined - we became a family of 250+ passionate souls."
+                    </blockquote>
+
+                    <div class="bg-gradient-to-r from-amber-900/30 to-orange-900/30 p-6 rounded-lg border-l-4 border-amber-400">
+                        <h3 class="text-xl font-bold text-white mb-3">Our Collective Growth</h3>
+                        <div class="grid grid-cols-2 gap-4 text-center">
+                            <div>
+                                <div class="text-3xl font-bold text-amber-400">1</div>
+                                <p class="text-amber-200 text-sm">Where we started</p>
+                                <p class="text-amber-300/70 text-xs">2022</p>
+                            </div>
+                            <div>
+                                <div class="text-3xl font-bold text-amber-400">250+</div>
+                                <p class="text-amber-200 text-sm">Where we are today</p>
+                                <p class="text-amber-300/70 text-xs">2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Dedication and Presence -->
+    <section class="relative py-20 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                
+                <h2 class="text-5xl font-bold text-white mb-4">Our Unwavering Dedication</h2>
+                <p class="text-xl text-amber-200">How we showed up, every single time</p>
+            </div>
+
+            <!-- The Heart of Our Commitment -->
+            <div class="mb-16">
+                <div class="bg-gradient-to-br from-amber-900/40 to-orange-900/40 p-12 rounded-lg border border-amber-400/30 text-center">
+                    <svg class="h-12 w-12 mx-auto text-amber-400 mb-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                    </svg>
+                    <blockquote class="text-2xl md:text-3xl font-light leading-relaxed text-amber-100 mb-8">
+                        "We showed up at every event, in rain or shine. We stayed up late editing photos, helped each other learn, and turned every little opportunity into something big. We built a space where people felt seen — both in front of the lens and behind it."
+                    </blockquote>
+                    <p class="text-amber-300 text-lg">— The spirit that defined us</p>
+                </div>
+            </div>
+
+            <!-- Community Activities We Created -->
+            <div>
+                <h3 class="text-3xl font-bold text-center text-amber-300 mb-8">Community Activities We Organized</h3>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-gradient-to-br from-amber-900/40 to-orange-900/40 p-8 rounded-lg border border-amber-400/30">
+                        <h4 class="text-xl font-bold text-white mb-4">📸 Photography Contests</h4>
+                        <ul class="space-y-2 text-amber-100">
+                            <li>• Photography Contest 2023: Engaging mobile & DSLR enthusiasts</li>
+                            <li>• Vibrant Summer 2024: Celebrating nature's colors</li>
+                            <li>• Dussehra Contest 2024: Village life and festivities</li>
+                            <li>• ...and many more creative competitions that sparked imagination</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-amber-900/40 to-orange-900/40 p-8 rounded-lg border border-amber-400/30">
+                        <h4 class="text-xl font-bold text-white mb-4">🌟 Community Building</h4>
+                        <ul class="space-y-2 text-amber-100">
+                            <li>• Active social media presence</li>
+                            <li>• Sunday-Funday: Monthly creative challenges</li>
+                            <li>• RK Beach Photowalks</li>
+                            <li>• Portrait Photography Sessions</li>
+                            <li>• ...and countless moments of connection and growth</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- A Moment Captured by Our Family -->
+    <section class="relative py-20 bg-gradient-to-b from-black via-slate-900 to-black">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <svg class="h-16 w-16 mx-auto text-amber-400 mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"/>
+                </svg>
+                <h2 class="text-5xl font-bold text-white mb-4">Through the Eyes of Our Family</h2>
+                <p class="text-xl text-amber-200">A moment captured and designed by one of our talented juniors during recruitment</p>
+            </div>
+
+            <div class="relative max-w-4xl mx-auto">
+                <div class="bg-white p-4 transform -rotate-1 shadow-2xl rounded-lg">
+                    <img src="https://i.ibb.co/1f07RdrM/f8f0da20-e972-40bd-ab3a-0d6d9e7638ce.jpg" alt="Keshav Atal during club recruitment - captured by a junior member" class="w-full h-auto rounded">
+                    <div class="mt-4 text-center">
+                        <p class="text-slate-800 font-handwriting text-lg">
+                            "Captured during recruitment - when passion meets purpose"
+                        </p>
+                        <p class="text-slate-600 text-sm mt-1">— Created with love by our junior family member</p>
+                    </div>
+                </div>
+
+                <!-- Gentle decorative elements -->
+                <div class="absolute -top-6 -left-6 w-12 h-12 border-4 border-amber-400 rounded-full opacity-30"></div>
+                <div class="absolute -bottom-6 -right-6 w-8 h-8 border-4 border-orange-400 rounded-full opacity-40"></div>
+            </div>
+
+            <div class="text-center mt-12">
+                <p class="text-xl text-amber-200 italic">
+                    "This is what our club is about - nurturing talent, capturing moments, and creating memories together."
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lessons We Learned Together -->
+    <section class="relative py-20 bg-black">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <svg class="h-16 w-16 mx-auto text-amber-400 mb-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                </svg>
+                <h2 class="text-5xl font-bold text-white mb-4">What This Journey Taught Us</h2>
+                <p class="text-xl text-amber-200">Lessons learned through collective experience</p>
+            </div>
+
+            <div class="space-y-8">
+                <div class="group">
+                    <div class="bg-gradient-to-r from-amber-900/30 to-orange-900/30 p-8 border-l-4 border-amber-400 hover:border-amber-300 transition-all duration-300 group-hover:transform group-hover:translate-x-2">
+                        <h3 class="text-2xl font-bold text-amber-300 mb-4">Community Over Individual</h3>
+                        <p class="text-xl text-amber-100 leading-relaxed italic">"The most beautiful photographs are the ones that bring people together. Our strength was never in one person, but in how we supported each other."</p>
+                    </div>
+                </div>
+                <div class="group">
+                    <div class="bg-gradient-to-r from-amber-900/30 to-orange-900/30 p-8 border-l-4 border-amber-400 hover:border-amber-300 transition-all duration-300 group-hover:transform group-hover:translate-x-2">
+                        <h3 class="text-2xl font-bold text-amber-300 mb-4">Growth Through Collaboration</h3>
+                        <p class="text-xl text-amber-100 leading-relaxed italic">"Every event we covered, every contest we organized, every photowalk we took - it was our collective passion that made the magic happen."</p>
+                    </div>
+                </div>
+                <div class="group">
+                    <div class="bg-gradient-to-r from-amber-900/30 to-orange-900/30 p-8 border-l-4 border-amber-400 hover:border-amber-300 transition-all duration-300 group-hover:transform group-hover:translate-x-2">
+                        <h3 class="text-2xl font-bold text-amber-300 mb-4">Building Something Lasting</h3>
+                        <p class="text-xl text-amber-100 leading-relaxed italic">"We didn't just capture moments; we created a culture. A place where creativity meets community, where every member feels valued and heard."</p>
+                    </div>
+                </div>
+                <div class="group">
+                    <div class="bg-gradient-to-r from-amber-900/30 to-orange-900/30 p-8 border-l-4 border-amber-400 hover:border-amber-300 transition-all duration-300 group-hover:transform group-hover:translate-x-2">
+                        <h3 class="text-2xl font-bold text-amber-300 mb-4">Gratitude and Humility</h3>
+                        <p class="text-xl text-amber-100 leading-relaxed italic">"Every achievement was possible because of the trust, support, and dedication of our 250+ family members and our wonderful mentor."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Thanks -->
+    <section class="relative py-20 bg-gradient-to-br from-amber-900/20 via-black to-orange-900/20">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <svg class="h-16 w-16 mx-auto text-amber-400 mb-8" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+            <h2 class="text-5xl font-bold text-white mb-16">Special Thanks</h2>
+
+            <div class="bg-gradient-to-br from-amber-900/40 to-orange-900/40 p-12 rounded-lg border border-amber-400/30 mb-12">
+                <svg class="h-12 w-12 mx-auto text-amber-400 mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                </svg>
+                <h3 class="text-3xl font-bold text-white mb-6">To Our Club Mentor</h3>
+                <p class="text-2xl text-amber-200 mb-4">Prof. Paul Douglas</p>
+                <p class="text-xl text-amber-100 leading-relaxed">
+                    For always supporting us, believing in our vision, and guiding us through every challenge. Your mentorship made all the difference in our journey.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="group">
+                    <div class="text-4xl font-bold text-amber-400 mb-4 group-hover:scale-110 transition-transform">250+</div>
+                    <p class="text-amber-200 font-semibold">Family Members</p>
+                    <p class="text-sm text-amber-300/70 mt-2">Each one precious</p>
+                </div>
+                <div class="group">
+                    <div class="text-4xl font-bold text-amber-400 mb-4 group-hover:scale-110 transition-transform">∞</div>
+                    <p class="text-amber-200 font-semibold">Memories Created</p>
+                    <p class="text-sm text-amber-300/70 mt-2">Together we captured</p>
+                </div>
+                <div class="group">
+                    <div class="text-4xl font-bold text-amber-400 mb-4 group-hover:scale-110 transition-transform">3</div>
+                    <p class="text-amber-200 font-semibold">Years of Growth</p>
+                    <p class="text-sm text-amber-300/70 mt-2">Side by side</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Passing the Responsibility -->
+    <section class="relative py-20 bg-gradient-to-b from-slate-900 to-black">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <svg class="h-16 w-16 mx-auto text-amber-400 mb-8" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+            <h2 class="text-5xl font-bold text-white mb-8">Passing the Responsibility</h2>
+
+            <div class="bg-gradient-to-br from-amber-900/40 to-orange-900/40 p-12 rounded-lg border border-amber-400/30">
+                <p class="text-2xl text-amber-100 leading-relaxed mb-8">
+                    As I step back, the responsibility now belongs to all 250+ members of AU United Photography Club.
+                    Together, we built this family, and together you will continue to grow it.
+                </p>
+                <div class="flex justify-center gap-8 mb-8">
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center mb-4 mx-auto">
+                            <svg class="h-10 w-10 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                        </div>
+                        <p class="text-2xl font-bold text-white">Yuvraj</p>
+                        <p class="text-amber-300">Leading the Vision</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center mb-4 mx-auto">
+                            <svg class="h-10 w-10 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                            </svg>
+                        </div>
+                        <p class="text-2xl font-bold text-white">Sai Diwakar</p>
+                        <p class="text-amber-300">Guiding the Journey</p>
+                    </div>
+                </div>
+                <p class="text-xl text-amber-200 mb-4">
+                    May you continue to nurture this beautiful community we've built together.
+                </p>
+                <p class="text-lg text-amber-300/80 italic">
+                    "Every member is a leader, every voice matters, every contribution counts."
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Visual Legacy -->
+    <section class="relative py-20 bg-gradient-to-b from-slate-900 to-black">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <svg class="h-16 w-16 mx-auto text-amber-400 mb-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+            </svg>
+            <h2 class="text-5xl font-bold text-white mb-8">Our Visual Legacy Lives On</h2>
+
+            <div class="bg-gradient-to-br from-amber-900/40 to-orange-900/40 p-12 rounded-lg border border-amber-400/30 mb-12">
+                <p class="text-2xl text-amber-100 leading-relaxed mb-8">
+                    Every event, every moment, every smile we captured together tells our story.
+                </p>
+                <a href="https://auunitedclub.netlify.app/clubs/photography" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-3 bg-gradient-to-r from-amber-500 to-orange-500 text-black px-8 py-4 rounded-full font-bold text-lg hover:from-amber-400 hover:to-orange-400 transition-all duration-300 transform hover:scale-105">
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"/>
+                    </svg>
+                    Explore Our Gallery
+                </a>
+                <p class="text-amber-300 text-sm mt-4">
+                    Witness the moments that defined our journey together
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Gratitude -->
+    <section class="relative py-20 bg-gradient-to-t from-amber-900/20 to-black">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <div class="mb-12">
+                <svg class="h-16 w-16 mx-auto text-amber-400 mb-8" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                </svg>
+                <blockquote class="text-3xl md:text-4xl font-light leading-relaxed text-amber-100 mb-8">
+                    "I came with a camera and a passion. I leave with 250+ friendships, countless memories, and a heart full of gratitude for this incredible journey we shared."
+                </blockquote>
+            </div>
+
+            <div class="space-y-6">
+                <p class="text-2xl text-amber-200">With heartfelt gratitude,</p>
+                <div class="text-5xl font-bold bg-gradient-to-r from-amber-200 via-orange-300 to-red-400 bg-clip-text text-transparent">
+                    Keshav Atal
+                </div>
+                <p class="text-xl text-amber-300">Outgoing Head (2022–2025)</p>
+                <p class="text-lg text-amber-400">AU United Photography Club</p>
+                <p class="text-amber-500">[Andhra University]</p>
+            </div>
+
+            <!-- Connect & Explore -->
+            <div class="mt-12 space-y-6">
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <a href="https://www.instagram.com/an_imaginator_world" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-gradient-to-r from-pink-500 to-purple-500 text-white px-6 py-3 rounded-full font-semibold hover:from-pink-400 hover:to-purple-400 transition-all duration-300 transform hover:scale-105">
+                         Connect on Instagram
+                    </a>
+                    <a href="https://keshavatal.com.np/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-6 py-3 rounded-full font-semibold hover:from-blue-400 hover:to-cyan-400 transition-all duration-300 transform hover:scale-105">
+                        💼 Visit My Portfolio
+                    </a>
+                </div>
+                <a href="https://auunitedphotographyclub.netlify.app/" class="inline-block text-amber-400 hover:text-amber-300 underline text-lg">
+                    auunitedphotographyclub.netlify.app
+                </a>
+            </div>
+
+            <!-- Final gentle effect -->
+            <div class="mt-16">
+                <div class="w-24 h-24 mx-auto border-4 border-amber-400 rounded-full flex items-center justify-center animate-pulse">
+                    <svg class="h-12 w-12 text-amber-400" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                    </svg>
+                </div>
+                <p class="mt-4 text-amber-300 text-sm">*With Love & Gratitude*</p>
+                <p class="mt-2 text-amber-400/60 text-xs">
+                    "Keep capturing, keep creating, keep connecting"
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
