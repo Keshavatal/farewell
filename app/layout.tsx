@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "A Journey Through the Lens – AU United Photography Club Farewell | Keshav Atal",
     description:
-      "Reflections on three years of growth, community, and countless memories at AU United Photography Club. By Keshav Atal, Outgoing Head (2022–2025).",
+      "As I step back, the responsibility now belongs to all 250+ members of AU United Photography Club. Together, we built this family, and together you will continue to grow it. Introducing new Heads. Reflections on three years of growth, community, and countless memories at AU United Photography Club. By Keshav Atal, Outgoing Head (2022–2025).",
     url: "https://auunitedphotographyclub.netlify.app/",
     siteName: "AU United Photography Club",
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "A Journey Through the Lens – AU United Photography Club Farewell | Keshav Atal",
     description:
-      "Reflections on three years of growth, community, and countless memories at AU United Photography Club. By Keshav Atal, Outgoing Head (2022–2025).",
+      "As I step back, the responsibility now belongs to all 250+ members of AU United Photography Club. Together, we built this family, and together you will continue to grow it. Introducing new Heads. Reflections on three years of growth, community, and countless memories at AU United Photography Club. By Keshav Atal, Outgoing Head (2022–2025).",
     images: ["/au-united-logo.png"],
     creator: "@an_imaginator_world",
   },
